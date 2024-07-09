@@ -1,9 +1,9 @@
-export default function Item() {
+export default function Item(props) {
     return (
         <div className="item">
-           <img alt="product"></img>
-           <h6>Product Name</h6>
-           <p>Price</p>
+           <img src={props.img} alt="product"/>
+           <h6>{props.name}</h6>    
+           <p>{props.price}</p>
            <div className="item-btns">
               <button>Get Now!</button>
               <button>Visit</button>

@@ -14,8 +14,9 @@ export default function Nav() {
                         <img className="cart" alt="cart"></img>
                    </div> 
                 </div>
-                <hr/>
+                
                 <div className="search">
+                <hr/>
                     <input type="search" placeholder="Search"></input>
                     <img className="search-btn"></img>
                 </div>

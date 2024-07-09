@@ -33,7 +33,9 @@ code {
   padding: 0px 24px;
 }
 
-.search input {
+  .search input {
+  display: block;
+  margin: auto;
   width: 500px;
   border-radius: 10px;
   text-align: center;
@@ -47,4 +49,61 @@ code {
   min-width: 100%;
   min-height: 300px;
   background-color: gray;
+}
+
+.products-container {
+  display: flex;
+}
+
+.products-container .item {
+  margin: 0 40px;
+}
+
+.products-section h2 {
+  text-align: left;
+}
+
+.banner {
+  display: flex;
+}
+
+.blog-container {
+  display: flex;
+}
+
+.blog-section {
+  height: 400px;
+  overflow-y: scroll;
+  margin: 10px 0;
+}
+
+.blog-section h2 {
+  text-align: center;
+}
+
+.footer-container {
+  background-color: #000;
+}
+
+.footer {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-name {
+  display: flex;
+}
+
+.footer-left, .footer-right {
+  margin: 20px 40px;
+}
+
+.white-hr {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
 }
