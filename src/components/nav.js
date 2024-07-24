@@ -5,9 +5,9 @@ export default function Nav() {
                 <div className="nav">
                     <img className="logo" alt="logo"></img>
                     <ul>
-                        <li>Home</li>
-                        <li>Products</li>
-                        <li>About</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
                     </ul>
                    <div className="right-nav">
                         <img className="login" alt="login"></img>
